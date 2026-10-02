@@ -25,6 +25,9 @@ body{
 
 
 
+
+
+
 @media(max-width:768px){
     
     .div-title-box{
@@ -47,4 +50,11 @@ body{
 
     
 
+}
+
+
+@media(min-width:768px){
+    .category-card{
+        width: 25%;
+    }
 }
