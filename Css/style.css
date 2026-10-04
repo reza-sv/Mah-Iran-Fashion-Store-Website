@@ -24,9 +24,45 @@ body{
 }
 
 
+.promotional-banner{
+    background-image: url(/images/autumn-collection-banner.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* media min-width------------------------------------------------ */
+
+@media(min-width:768px){
+    .category-card{
+        width: 25%;
+    }
+    .promotional-banner-title{
+        font-size: 50px;
+        text-wrap: nowrap;
+    }
+    
+    .promotional-banner-texts{
+        font-size: 25px;
+        text-wrap: nowrap;
+        margin-left: 20px;
+}
+    
+}
 
 
 
+
+@media(min-width:1100px){
+    
+    .div-title-box{
+        font-size: 25px;
+    }
+    
+
+}
+
+/* media max-width---------------------------------------------------- */
 
 @media(max-width:768px){
     
@@ -36,25 +72,20 @@ body{
         padding: 10px;
         
     }
-
-
-    
-
-}
-@media(min-width:1100px){
-    
-    .div-title-box{
-        font-size: 25px;
-    }
-
-
-    
-
-}
-
-
-@media(min-width:768px){
-    .category-card{
-        width: 25%;
+    .promotional-banner-title{
+        text-wrap: nowrap;
     }
 }
+
+@media(max-width:576px){
+.promotional-banner-texts{
+    font-size: 20px;
+    text-wrap: nowrap;
+    margin-left: 20px;
+}
+.promotional-banner-title{
+    font-size: 35px;
+    text-wrap: nowrap;
+}
+}
+
